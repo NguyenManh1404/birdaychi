@@ -6433,7 +6433,7 @@ customElements.get(ji) || customElements.define(ji, tt);
           ? R.jsx("div", { id: "flame", className: "flame" })
           : R.jsx("div", { id: "flame", className: "flame out" }),
       }),
-      R.jsx("div", { className: "name", children: "19/08 - Hằng Mơ" }),
+      R.jsx("div", { className: "name", children: "20/08 - Trinh Trinh" }),
     ],
   });
 var $o = {
