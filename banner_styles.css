@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Titan+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Sriracha&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nerko+One&family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -109,7 +109,7 @@ body {
   font-size: 1rem;
   border-radius: 50px;
   border: 3px solid var(--color-black);
-  font-family: 'Sriracha', cursive;
+  font-family: "Sriracha", cursive;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -152,7 +152,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: center;
-  font-family: 'Titan One', sans-serif;
+  font-family: "Titan One", sans-serif;
   font-size: 3rem;
   flex-direction: column;
   perspective: 1000px;
@@ -188,7 +188,7 @@ body {
   color: var(--color-text-pink);
 }
 
-.title .hat { 
+.title .hat {
   position: absolute;
   right: 45px;
   top: -350px;
@@ -217,7 +217,7 @@ body {
   background-color: var(--color-text-pink);
   border-radius: 50px;
   margin-top: 20px;
-  font-family: 'Sriracha', cursive;
+  font-family: "Sriracha", cursive;
 }
 .date__of__birth {
   border: 3px solid var(--color-black);
@@ -333,7 +333,7 @@ body {
   color: var(--color-black);
   transform: rotate(calc(var(--i) * 24deg));
   transform-origin: 0 45px;
-  font-family: 'Sriracha', cursive;
+  font-family: "Sriracha", cursive;
   text-transform: uppercase;
   font-size: 0.7rem;
 }
@@ -526,7 +526,7 @@ body {
 }
 .letter__border .letter .title__letter {
   text-align: center;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-weight: bold;
   font-size: 2.4rem;
 }
@@ -619,7 +619,7 @@ body {
 .content__letter .right .text__letter {
   margin-top: 60px;
   padding: 20px 15px 10px 15px;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 1.3rem;
 }
 .content__letter .right #mewmew {
@@ -671,6 +671,25 @@ body {
   .date__of__birth {
     margin-top: 30px;
   }
-  .right .balloon_two {display: none;}
-  .name{width: max-content;}
+  .right .balloon_two {
+    display: none;
+  }
+  .name {
+    width: max-content;
+  }
+}
+
+.letterContent {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.letterContent span {
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 10px 0;
+  max-height: 100px;
+  overflow: hidden;
+  position: relative;
+  padding: 0 10px;
 }
